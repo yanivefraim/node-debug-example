@@ -1,6 +1,6 @@
-# babel-mocha-seed
+# node-debug-example
 
-The simplest possible base to use mocha with babel.
+This is a super simple example made to demonstrate node debug / node debug source maps problem 
 
 ## install
 
@@ -19,3 +19,4 @@ Run mocha:
 ## config
 
 Configure babel by editing `babel.conf.js`
+
