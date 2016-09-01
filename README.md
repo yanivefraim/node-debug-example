@@ -8,15 +8,10 @@ This is a super simple example made to demonstrate node debug / node debug sourc
     
 ## usage
 
-Run the application:
-
-    npm run index
-    
 Run mocha:
 
     npm test
 
-## config
+Run mocha with debug:
 
-Configure babel by editing `babel.conf.js`
-
+    `npm run test-debug`
