@@ -14,4 +14,4 @@ Run mocha:
 
 Run mocha with debug:
 
-    `npm run test-debug`
+    npm run test-debug
