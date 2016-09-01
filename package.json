@@ -9,14 +9,12 @@
     "chai": "^3.0.0"
   },
   "scripts": {
-    "index": "node ./src/",
-    "test": "mocha --require babel.conf --watch",
-    "test-debug": "mocha --require babel.conf --watch --debug-br"
+    "test": "mocha --require babel-register --watch",
+    "test-debug": "/usr/local/bin/node --debug-brk --inspect=9444 --expose_debug_as=v8debug /Users/yanivef/Documents/projects/node-debug-example/node_modules/mocha/bin/_mocha --require babel-register --timeout 0 --ui bdd test/**/*.spec.js"
   },
   "keywords": [
     "babel",
-    "mocha",
-    "seed"
+    "mocha"
   ],
   "author": "Yaniv Efraim <yaniv.efraim@gmail.com>",
   "license": "ISC"
