@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "mocha --require babel-register --watch",
-    "test-debug": "/usr/local/bin/node --debug-brk --inspect=9444 --expose_debug_as=v8debug /Users/yanivef/Documents/projects/node-debug-example/node_modules/mocha/bin/_mocha --require babel-register --timeout 0 --ui bdd test/**/*.spec.js"
+    "test-debug": "/usr/local/bin/node --debug-brk --inspect=9444 --expose_debug_as=v8debug ./node_modules/mocha/bin/_mocha --require babel-register --timeout 0 --ui bdd test/**/*.spec.js"
   },
   "keywords": [
     "babel",
